@@ -1,0 +1,28 @@
+{
+  "name": "bookstore-audit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucashdp/bookstore-audit.git"
+  },
+  "author": "Lucas Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucashdp/bookstore-audit/issues"
+  },
+  "homepage": "https://github.com/lucashdp/bookstore-audit#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16",
+    "request-ip": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
