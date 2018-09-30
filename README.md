@@ -2,7 +2,7 @@
 Bookstore Audit is the API for logging any object, it is generic. The reason for this API is a postgraduate work in Software Architecture at PUC MINAS, in the field of Backend Architecture and Microservices.
 
 ## Deploy
-**[This API was deploy at https://bookstore-audit.herokuapp.com](https://bookstore-audit.herokuapp.com)**
+**[This API was deployed at https://bookstore-audit.herokuapp.com](https://bookstore-audit.herokuapp.com)**
 
 ## Database
 This API connect with a mongoDB. Any log will be registered with this database.
