@@ -16,3 +16,18 @@ Your connection string is: <code>mongodb://iplaycore:t0k3n@iplaycore-shard-00-00
 - **[<code>GET</code> v1/public/audits/:auditId](https://github.com/lucashdp/bookstore-audit/blob/master/api-documentation/GET_AUDITS_BY_ID.md)**
 
 - **[<code>POST</code> v1/public/audits](https://github.com/lucashdp/bookstore-audit/blob/master/api-documentation/POST_AUDITS.md)**
+
+## Pre-Requisites
+
+- NodeJS is a pre requisite. You will use the Node Package Manager (npm).
+
+## Install and Run this app
+
+- Clone the project:
+    git clone https://github.com/lucashdp/bookstore-audit
+
+- Execute the command line (install dependences):
+    npm install
+
+- Run the command line (run the app):
+    npm start
