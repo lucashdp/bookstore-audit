@@ -1,4 +1,6 @@
 const requestIp = require('request-ip');
+var ObjectID = require('mongodb').ObjectID;
+
 // routes/audit_routes.js
 module.exports = function (app, db) {
     //----------GET----------------------------//
@@ -28,7 +30,7 @@ module.exports = function (app, db) {
     //----------POST---------------------------//
     app.post('/v1/public/audits', (req, res) => {
         const clientIp = requestIp.getClientIp(req);
-        const audit = { text: req.body.body, title: req.body.title };
+        const audit = req.body;
         audit.clientIp = clientIp;
         audit.timeAudit = new Date();
 
